@@ -81,3 +81,5 @@ FEATURES_TO_ENCODE = ['Marital status', 'Application mode', 'Application order',
        'Curricular units 2nd sem (grade)',
        'Curricular units 2nd sem (without evaluations)'
        ]
+
+DROP_FEATURE=''
