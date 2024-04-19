@@ -9,6 +9,8 @@ DATAPATH = os.path.join(PACKAGE_ROOT,"datasets")
 TRAIN_FILE='train.csv'
 TEST_FILE='test.csv'
 
+MODEL_NAME='classification.pkl'
+
 SAVE_MODEL_PATH=os.path.join(PACKAGE_ROOT,'trained_models')
 
 TARGET = 'Target'
@@ -67,7 +69,7 @@ FEATURES_TO_ENCODE = ['Marital status', 'Application mode', 'Application order',
        "Mother's occupation", "Father's occupation", 'Admission grade',
        'Displaced', 'Educational special needs', 'Debtor',
        'Tuition fees up to date', 'Gender', 'Scholarship holder',
-        'International',
+       'International',
        'Curricular units 1st sem (credited)',
        'Curricular units 1st sem (enrolled)',
        'Curricular units 1st sem (evaluations)',
