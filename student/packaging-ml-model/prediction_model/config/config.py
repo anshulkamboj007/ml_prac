@@ -14,6 +14,7 @@ MODEL_NAME='classification.pkl'
 SAVE_MODEL_PATH=os.path.join(PACKAGE_ROOT,'trained_models')
 
 TARGET = 'Target'
+TARGET_Val='Dropout'
 
 FEATURES= ['Marital status', 'Application mode', 'Application order', 'Course',
        'Daytime/evening attendance\t', 'Previous qualification',
