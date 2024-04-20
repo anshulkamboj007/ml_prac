@@ -18,3 +18,18 @@ class MeanImputer(BaseEstimator,TransformerMixin):
         for col in self.variables:
             X[col].fillna(self.mean_dict[col],inplace=True)
         return X
+    
+
+class DropColumns(BaseEstimator,TransformerMixin):
+    def __init__(self,variables_to_drop=None):
+        self.variables_to_drop=variables_to_drop
+
+    def fit(self,X,y=None):
+
+        return self
+    
+    def transform(self,X):
+        X=X.copy()
+        X=X.drop(columns = self.variables_to_drop)
+
+        return X
