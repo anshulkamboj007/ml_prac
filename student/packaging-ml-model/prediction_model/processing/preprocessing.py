@@ -47,6 +47,7 @@ class DropColumns(BaseEstimator,TransformerMixin):
     def transform(self,X):
         X=X.copy()
         X=X.drop(columns = self.variables_to_drop)
+        print(X)
 
         return X
     
@@ -60,9 +61,10 @@ class ChangetoSTR(BaseEstimator,TransformerMixin):
     
     def transform(self,X):
         X=X.copy()
+        print('starting--str change-------')
         for col in self.variables_to_change:
             X[col]=X[col].astype(str)
-
+        print('-----str change done------')
         return X
     
 class ChangeTargetToNum(BaseEstimator,TransformerMixin):
@@ -78,7 +80,7 @@ class ChangeTargetToNum(BaseEstimator,TransformerMixin):
         X=X.copy()
         X.loc[X[self.target_col] != self.target_val,self.target_val] = 0
         X.loc[X[self.target_col] == self.target_val,self.target_val] = 1
-
+        print('------change to num done')
         return X
 
 class LogTransforms(BaseEstimator,TransformerMixin):

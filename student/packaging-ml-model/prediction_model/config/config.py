@@ -11,7 +11,8 @@ TEST_FILE='test.csv'
 
 MODEL_NAME='classification.pkl'
 
-SAVE_MODEL_PATH=os.path.join(PACKAGE_ROOT,'trained_models')
+
+SAVE_MODEL_PATH = os.path.join(PACKAGE_ROOT,'trained_models')
 
 TARGET = 'Target'
 TARGET_Val='Dropout'
@@ -23,7 +24,7 @@ FEATURES= ['Marital status', 'Application mode', 'Application order', 'Course',
        "Mother's occupation", "Father's occupation", 'Admission grade',
        'Displaced', 'Educational special needs', 'Debtor',
        'Tuition fees up to date', 'Gender', 'Scholarship holder',
-       'International',
+       'International','Age at enrollment',
        'Curricular units 1st sem (credited)',
        'Curricular units 1st sem (enrolled)',
        'Curricular units 1st sem (evaluations)',
