@@ -15,8 +15,10 @@ def save_pipeline(pipeline_to_save):
     joblib.dump(pipeline_to_save, save_path)
     print(f"Model has been saved under the name {config.MODEL_NAME}")
 
+
+
 def load_pipeline(pipeline_to_load):
-    save_path=os.path.join(config.SAVE_MODEL_PATH,config.MODEL_NAME)
-    model_loaded=joblib.load(pipeline_to_load,save_path)
-    print('model has been loaded {config.MODEL_NAME}')
+    save_path = os.path.join(config.SAVE_MODEL_PATH,config.MODEL_NAME)
+    model_loaded = joblib.load(save_path)
+    print(f"Model has been loaded")
     return model_loaded
