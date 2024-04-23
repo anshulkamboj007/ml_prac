@@ -7,18 +7,19 @@ from setuptools import setup,find_packages
 
 #metadata
 
-NAME='prediction model'
+NAME='prediction_model'
 DESCRIPTION='student dropout'
 REQUIRES_PYTHON ='>=3.8.0'
 
 pwd=os.path.abspath(os.path.dirname(__file__))
 
+#encoding='UTF-16LE'
 def list_reqs(fname='requirements.txt'):
-    with io.open(os.path.join(pwd,fname),encoding='utf-8') as f:
+    with io.open(os.path.join(pwd,fname),encoding='UTF-16LE') as f:
         return f.read().splitlines()
 
 try:
-    with io.open(os.path.join(pwd,'README.md'),encoding='utf-8') as f:
+    with io.open(os.path.join(pwd,'README.md'),encoding='UTF-16LE') as f:
         long_description = '\n' + f.read()
 except FileNotFoundError:
     long_description=DESCRIPTION
