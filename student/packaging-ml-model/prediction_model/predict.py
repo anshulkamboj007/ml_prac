@@ -8,7 +8,7 @@ classification_pipeline=load_pipeline(config.MODEL_NAME)
 
 def generate_predictions(data_input):
     data=pd.DataFrame(data_input)
-    pred=classification_pipeline.predict(data.FEATURES)
+    pred=classification_pipeline.predict(data[config.FEATURES])
     output=np.where(pred==1,'y','n')
     result={'predictions':'output'}
     return result
