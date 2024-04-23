@@ -11,3 +11,5 @@ include ./tests/*
 
 recursive-exclude *__pycache__
 recursive-exclude **.py[co]
+
+include prediction_model/VERSION
