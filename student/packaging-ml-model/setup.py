@@ -13,10 +13,14 @@ REQUIRES_PYTHON ='>=3.8.0'
 
 pwd=os.path.abspath(os.path.dirname(__file__))
 
+
 #encoding='UTF-16LE'
 def list_reqs(fname='requirements.txt'):
     with io.open(os.path.join(pwd,fname),encoding='UTF-8') as f:
-        return f.read().splitlines()
+        requirements=f.read().splitlines()
+        return requirements
+
+
 
 try:
     with io.open(os.path.join(pwd,'README.md')) as f:
