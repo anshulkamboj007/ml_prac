@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Anshul.kamboj/Desktop/ml_prac/mlflow-student/mlruns/711928089781348377/8ae7215065354d018179147c2bb3300c/artifacts
+end_time: 1714041402618
+entry_point_name: ''
+experiment_id: '711928089781348377'
+lifecycle_stage: active
+run_id: 8ae7215065354d018179147c2bb3300c
+run_name: dazzling-hog-974
+run_uuid: 8ae7215065354d018179147c2bb3300c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1714041395474
+status: 3
+tags: []
+user_id: Anshul.Kamboj
