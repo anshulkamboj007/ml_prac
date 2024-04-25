@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Anshul.kamboj/Desktop/ml_prac/mlflow-student/mlruns/711928089781348377/a7713fd95c854852b28e0faeef7a056e/artifacts
+end_time: 1714040555979
+entry_point_name: ''
+experiment_id: '711928089781348377'
+lifecycle_stage: active
+run_id: a7713fd95c854852b28e0faeef7a056e
+run_name: languid-grub-554
+run_uuid: a7713fd95c854852b28e0faeef7a056e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1714040545593
+status: 3
+tags: []
+user_id: Anshul.Kamboj
