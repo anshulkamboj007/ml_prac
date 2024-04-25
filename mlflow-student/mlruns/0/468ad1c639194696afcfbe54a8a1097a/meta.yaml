@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/anshul/Desktop/ml_prac/mlflow-student/mlruns/0/468ad1c639194696afcfbe54a8a1097a/artifacts
+end_time: 1714001262795
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 468ad1c639194696afcfbe54a8a1097a
+run_name: exp_demo
+run_uuid: 468ad1c639194696afcfbe54a8a1097a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1714001262700
+status: 3
+tags: []
+user_id: anshul
