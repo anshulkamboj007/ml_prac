@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/anshul/Desktop/ml_prac/mlflow-student/mlruns/108825142443777090/10ae17dac0ca4e07946ed9696ab41a03/artifacts
+deleted_time: 1714204397596
+end_time: 1714203496112
+entry_point_name: ''
+experiment_id: '108825142443777090'
+lifecycle_stage: deleted
+run_id: 10ae17dac0ca4e07946ed9696ab41a03
+run_name: painted-bat-345
+run_uuid: 10ae17dac0ca4e07946ed9696ab41a03
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1714203496043
+status: 4
+tags: []
+user_id: anshul

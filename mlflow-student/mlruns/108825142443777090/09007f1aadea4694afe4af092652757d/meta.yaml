@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/anshul/Desktop/ml_prac/mlflow-student/mlruns/108825142443777090/09007f1aadea4694afe4af092652757d/artifacts
+end_time: 1714204346588
+entry_point_name: ''
+experiment_id: '108825142443777090'
+lifecycle_stage: active
+run_id: 09007f1aadea4694afe4af092652757d
+run_name: entertaining-hog-183
+run_uuid: 09007f1aadea4694afe4af092652757d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1714204342183
+status: 3
+tags: []
+user_id: anshul
