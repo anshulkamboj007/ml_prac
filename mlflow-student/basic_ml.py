@@ -9,12 +9,14 @@ import numpy as np
 import pandas as pd
 from sklearn.metrics import mean_absolute_error,mean_squared_error,r2_score
 
+"""
 def load_data():
     URL="http://archive.ics.uci.edu/ml/machine-learning-database/wine-quality/winequality-red.csv"
     try:
         df=pd.read_csv('winequality.csv',sep=';')
     except Exception as e:
         raise e
+"""
 
 def main(alpha,l1_ratio):
     df=pd.read_csv('winequality.csv',sep=';')
